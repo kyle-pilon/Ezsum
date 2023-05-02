@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
-        <button type="button" onClick={() => window.open('https://github.com/kyle-pilon')} className="black_btn">Github</button>
+        <img src={logo} alt="ezsum_logo" className="w-28 object-contain" />
+        <button type="button" onClick={() => window.open('https://github.com/kyle-pilon/Ezsum')} className="black_btn">Github</button>
       </nav>
 
       <h1 className="head_text">
